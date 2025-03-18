@@ -1,0 +1,29 @@
+name: gestion_locative
+description: Application de gestion locative.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: ">=3.18.0-18.0.pre.54"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2
+  path: ^1.8.3
+  provider: ^6.0.5
+  intl: ^0.19.0
+  pdf: ^3.10.4
+  fl_chart: ^0.65.0
+  shared_preferences: ^2.2.2
+  local_auth: ^2.1.7
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
